@@ -1,0 +1,22 @@
+.title-main{
+    font-size: 64px;
+    text-align: center;
+    color: #FFF;
+}
+
+.ss-title-main{
+    color: #FFF;
+    text-align: center;
+}
+
+a{
+    color: #fff !important;
+}
+
+.line{
+    border-left: 2px solid #007bff !important;
+}
+
+.text-primary{
+    color: #007bff !important;
+}
