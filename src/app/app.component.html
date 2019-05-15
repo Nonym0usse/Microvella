@@ -1,3 +1,85 @@
+<nav class="navbar navbar-expand-xl navbar-dark  navbar-togglable  fixed-top">
+  <div class="container">
+    <a class="navbar-brand" routerLink="/">
+      <img src="/assets/img/logo-2017.png" width="160" height="60" alt="Logo microvella">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item-divider">
+              <span class="nav-link">
+                <span></span>
+              </span>
+        </li>
+        <li class="nav-item">
+          <a href="https://github.com/Nonym0usse" class="nav-link">
+            <i class="fab fa-github"></i>
+            <span class="d-xl-none ml-2">
+                  Github
+                </span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.facebook.com/costa.vella" class="nav-link">
+            <i class="fab fa-facebook"></i>
+            <span class="d-xl-none ml-2">
+                  Twitter
+                </span>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" id="navbarWelcome">
+            Accueil
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarLandings" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Prestations
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarLandings">
+            <a class="dropdown-item " routerLink="/depannage">
+              Dépannage informatique
+            </a>
+            <a class="dropdown-item " routerLink="/web">
+              Création site internet
+            </a>
+            <a class="dropdown-item "routerLink="/application">
+              Création application mobile
+            </a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#" id="navbarComponents">
+            Formations
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="documentation.html" class="nav-link">
+            Prendre rendez-vous
+          </a>
+        </li>
+        <li class="nav-item-divider">
+              <span class="nav-link">
+                <span></span>
+              </span>
+        </li>
+        <li class="nav-item">
+          <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank" class="nav-link">
+            Contact
+          </a>
+        </li>
+      </ul>
+
+    </div> <!-- / .navbar-collapse -->
+
+  </div> <!-- / .container -->
+</nav>
 
 
 <router-outlet></router-outlet>

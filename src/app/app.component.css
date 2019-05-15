@@ -1,0 +1,22 @@
+.nav-link:hover{
+  color: #007bff;
+}
+
+::selection {
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar{
+  padding: 10px !important;
+}
+
+.navbar:before{
+  background-color: #000 !important;
+  color: #FFF !important;
+  border-bottom: 1px solid white;
+}
+
+.nav-link{
+  color: #FFF !important;
+}
